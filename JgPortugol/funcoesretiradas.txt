@@ -1,0 +1,18 @@
+funcao infoDev(inteiro posY, inteiro posX) {
+		g.definir_cor(g.COR_PRETO)
+		g.desenhar_retangulo(1, 2, 100, 50, falso, verdadeiro)
+		g.definir_cor(g.COR_BRANCO)
+		g.definir_estilo_texto(falso, verdadeiro, verdadeiro)
+		g.definir_tamanho_texto(20.0)
+		g.desenhar_texto(2, 2, "X:")
+		g.desenhar_texto(25, 2, tp.inteiro_para_cadeia(posY,10))
+		g.desenhar_texto(85, 2, "VAR: posY")
+		g.desenhar_texto(2, 20, "Y:")
+		g.desenhar_texto(25, 20, tp.inteiro_para_cadeia(posX,10))
+		g.desenhar_texto(85, 20, "VAR: posX")
+	}
+}
+
+
+
+
